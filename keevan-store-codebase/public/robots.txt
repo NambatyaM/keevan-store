@@ -1,0 +1,24 @@
+# ============================================================
+# Keevan Store — robots.txt
+# Allow indexing of public store/product pages
+# Disallow dashboard, admin, auth, and API routes
+# ============================================================
+
+User-agent: *
+Allow: /
+Allow: /store/
+Allow: /about
+Disallow: /dashboard
+Disallow: /products/new
+Disallow: /products/*/edit
+Disallow: /analytics
+Disallow: /withdrawals
+Disallow: /events/*/check-in
+Disallow: /admin
+Disallow: /api/
+Disallow: /login
+Disallow: /signup
+Disallow: /payment/
+
+# Sitemap
+Sitemap: https://keevanstore.in/sitemap.xml
